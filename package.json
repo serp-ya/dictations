@@ -1,7 +1,8 @@
 {
-  "name": "dictation",
+  "name": "dictations",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://serp-ya.github.io/dictations/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "lodash": "^4.17.11",
@@ -19,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

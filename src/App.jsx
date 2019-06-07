@@ -9,7 +9,7 @@ export class App extends React.PureComponent {
   render() {
     return (
       <Container fluid>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Row>
             <Col xs={2}>
               <Sidebar />
