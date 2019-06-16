@@ -18,7 +18,7 @@ class DictationListComponent extends React.PureComponent {
         </Row>
         <Row>
           <Col>
-            <ul>
+            <ol>
               {
                 this.props.dictationData.questionsList.length === 0
                   ? 'Почему то нет данных'
@@ -28,7 +28,7 @@ class DictationListComponent extends React.PureComponent {
                     </li>
                   ))
                 }
-            </ul>
+            </ol>
           </Col>
         </Row>
       </Container>
